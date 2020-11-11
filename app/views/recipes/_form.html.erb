@@ -5,7 +5,7 @@
     </p>
     <p>
         <%= f.fields_for :ingredients do |ingredient| %>
-            <%= ingredient.label :name, 'Ingredient Name:' %> <br>
+            Ingredient Name: <br>
             <%= ingredient.text_field :name %>
             <br> <br>
             <%= ingredient.label :quantity, 'Ingredient Quantity:' %> <br>

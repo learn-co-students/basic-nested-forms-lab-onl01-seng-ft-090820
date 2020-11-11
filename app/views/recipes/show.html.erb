@@ -6,4 +6,5 @@
 <% @recipe.ingredients.each do |ingredient| %>
   <li><%= "#{ingredient.name} X #{ingredient.quantity}" %></li>
 <% end %>
+<b><%=link_to "New", new_recipe_path  %>
 </ul>
